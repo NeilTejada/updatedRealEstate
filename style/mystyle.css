@@ -132,16 +132,35 @@ span.real {
   align-items: center;
   background-color: black;
   color: white;
-  height: 200px;
+  height: 80px;
+  padding: 10px;
+}
+.site-contact h1 {
+  padding-top: 0;
+  font-size: 30px;
+  margin: 0;
+}
+.site-contact nav a {
+  padding-top: 0;
+  font-size: 16px;
+  margin-top: 0;
+}
+.container-contact h2 {
+  text-align: center;
+  font-weight: lighter;
 }
 .form-container {
   margin: 20px;
 }
-.form-container input {
+.form-container input,
+textarea {
   display: block;
   background-color: lightgray;
   width: 100%;
   padding: 5px;
   border: none;
   border-radius: 5px;
+}
+.form-container textarea {
+  height: 100px;
 }
