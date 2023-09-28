@@ -177,3 +177,15 @@ fieldset h4 {
   font-weight: normal;
   font-style: italic;
 }
+.contact-button {
+  background-color: green;
+  color: white;
+  margin: 0.5px;
+  margin-top: 20px;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+fieldset {
+  margin: 0.5px;
+}
