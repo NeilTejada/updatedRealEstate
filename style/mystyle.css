@@ -7,6 +7,7 @@ a {
   color: white;
   text-decoration: none;
 }
+/*desktop*/
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -21,6 +22,14 @@ nav a {
   padding-top: 100px;
   margin-right: 10px;
 }
+@media (max-width: 760px) {
+  nav {
+    flex-direction: column;
+  }
+  nav a {
+    padding: 0;
+  }
+}
 img {
   max-width: 100%;
 }
@@ -31,7 +40,16 @@ img {
   margin-right: auto;
 }
 .flex-container {
+  flex-direction: row;
   display: flex;
+}
+@media (max-width: 768px) {
+  .flex-container {
+    flex-direction: column;
+  }
+  .container {
+    width: 90%;
+  }
 }
 .btn-details {
   background-color: orange;
@@ -53,7 +71,7 @@ header.site-init {
   position: relative;
 }
 header.site-init p {
-  position: absolute;
+  /* position: absolute; */
   bottom: 100px;
   left: 0;
   margin: 0;
@@ -69,6 +87,14 @@ span.real {
   font-family: "Libre Baskerville", serif;
   font-weight: normal;
 }
+@media (max-width: 768px) {
+  header.site-init {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
 /*more about us*/
 .more-about-us-item {
   margin-right: 1rem;
@@ -81,6 +107,16 @@ span.real {
 .more-about-us-item h3 {
   margin: 20px 0;
   font-size: 30px;
+}
+@media (max-width: 768px) {
+  .more-about-us-item img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .more-about-us-item h3 {
+    text-align: center;
+  }
 }
 /*houses*/
 .houses-container {
@@ -124,6 +160,14 @@ span.real {
 }
 .houses-item-img img {
   min-height: 100%;
+}
+@media (max-width: 768px) {
+  .houses-container {
+    flex-direction: column;
+  }
+  .houses-item-img {
+    height: 500px;
+  }
 }
 /*contact*/
 .site-contact {
