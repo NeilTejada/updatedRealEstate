@@ -77,6 +77,7 @@ header.site-init {
   color: white;
   position: relative;
   flex-wrap: wrap;
+  align-items: center;
 }
 header.site-init p {
   bottom: 10px;
@@ -87,7 +88,7 @@ header.site-init p {
   font-weight: 700px;
 }
 header.site-init h1 {
-  padding: 20px;
+  padding: 10px;
   padding-top: 100px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
@@ -235,7 +236,7 @@ fieldset h4 {
 fieldset {
   margin: 0.5px;
 }
-/*contact-about-blog*/
+/*header contact-about-blog*/
 .site-contact-about-blog-header {
   display: flex;
   justify-content: space-between;
@@ -274,19 +275,6 @@ nav {
 }
 .container-about p {
   text-align: center;
-}
-/*footer*/
-.site-contact-about-blog-footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: black;
-  color: white;
-  height: 100px;
-  padding: 10px 30px;
-  bottom: 0;
-  position: fixed;
-  width: 100%;
 }
 /*blog*/
 .blog-card-container {
