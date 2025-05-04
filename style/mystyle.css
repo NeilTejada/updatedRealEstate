@@ -66,7 +66,7 @@ img {
   padding: 5px;
   margin: 10px;
   text-align: center;
-  border-radius: 10ox;
+  border-radius: 10px;
 }
 /*header*/
 header.site-init {
@@ -87,7 +87,7 @@ header.site-init p {
   margin: 0;
   padding: 10px;
   font-size: 20px;
-  font-weight: 700px;
+  font-weight: 700;
 }
 header.site-init h1 {
   font-family: Arial, Helvetica, sans-serif;
@@ -282,7 +282,7 @@ nav {
   justify-content: space-evenly;
   align-items: center;
   width: 100vw;
-  
+
   flex-wrap: wrap;
 }
 .blog-card {

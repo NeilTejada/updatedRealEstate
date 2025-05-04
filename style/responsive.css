@@ -73,11 +73,6 @@
     font-size: 12px;
   }
 
-  /* Nav */
-  .nav-btn {
-    display: inline-flex;
-  }
-
   nav {
     padding: 1rem;
     text-align: center;
@@ -90,6 +85,10 @@
     width: 100%;
     padding: 10px;
     font-size: 14px;
+  }
+
+  .form-container {
+    margin-bottom: 1rem;
   }
 
   /* Blog cards */

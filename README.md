@@ -23,3 +23,13 @@ This is a responsive, static website mockup for a fictional real estate company.
 - HTML5
 - CSS3
 - Google Fonts
+
+## Folder Structure
+/images         -> All images used
+/style
+  - mystyle.css      -> Main desktop-first styles
+  - responsive.css   -> Media queries for tablet/phone
+index.html
+about.html
+blog.html
+contact.html
