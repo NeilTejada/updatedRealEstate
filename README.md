@@ -29,7 +29,7 @@ This is a responsive, static website mockup for a fictional real estate company.
 /style
   - mystyle.css      -> Main desktop-first styles
   - responsive.css   -> Media queries for tablet/phone
-index.html
-about.html
-blog.html
-contact.html
+- index.html
+- about.html
+- blog.html
+- contact.html
